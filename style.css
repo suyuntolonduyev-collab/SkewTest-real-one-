@@ -1,4 +1,11 @@
+:root {
+  --scale: 0.84;
+}
 body {
+  transform: scale(var(--scale));
+  transform-origin: top left;
+  width: calc(100% / var(--scale));
+  height: calc(100% / var(--scale));
   background: #ff90b3;
   margin: 0;
   padding: 0;
